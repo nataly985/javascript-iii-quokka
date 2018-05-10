@@ -14,14 +14,13 @@ var myObj = {
                 name:'cotton',
                 origin:{
                     state:{
-                        name:'Texas'
-                        doStuff:()=> console.log('let's do it!)
+                        name:'Texas',
+                        doStuff:()=>console.log("shoot dem guns")
                     }
                 }
             }
         }
     }]
 }
-
-var prop ='fabric'
-myObj.ar[0].shirt[0].origin.state.name
+let prop = 'fabric'
+myObj.ary[0].shirt[prop].origin.state.doStuff()

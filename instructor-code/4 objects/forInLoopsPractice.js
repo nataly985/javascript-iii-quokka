@@ -1,7 +1,7 @@
 var drink = {
     color: 'orange',
     taste: 'orange',
-    carbonated: true,
+    carbonated: false,
     brand: 'sunkisser'
 }
 
@@ -10,12 +10,14 @@ var drink = {
 
 for (var key in drink){
     key 
-    var value = drink[key];
-   value
-   if( drink[key] === "orange"){
-       drink[key] === "cherry"
-   }
+    let value = drink[key];
+    value
+    if (drink[key] ==="orange"){
+        drink[key] = "cherry"
+    }
 }
+drink
+
 
 //Write a function, called 'checkValid', that takes in an object like drink 
 //loop over the object and check if values are falsy

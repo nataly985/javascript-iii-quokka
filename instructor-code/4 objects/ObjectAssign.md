@@ -1,11 +1,12 @@
 ## Object assign
-// useful as consolidation tool
+
 ### Object.assign is a function used to copy properties from one object to another
 
 `Object.assign( destination, source )`
 
 `Object.assign( { }, { name: "Me" } )`
-{name: 'me};
+{name: "Me"}
+
 #### Object.assign copies from the right to the left and returns the final copy
 
 ```js
@@ -21,5 +22,5 @@ var result = Object.assign( { age: 27 }, { name: "Myself"})
 
 ###### Can copy multiple times 
 ```js
-var result = Object.assign( { age: 27 }, { name: "Myself"}, { color: "Red"}, { food: "Wings" }) 
+var result = Object.assign( {}, user, fbProfile, linkedInProfile, googleProfile) 
 ```

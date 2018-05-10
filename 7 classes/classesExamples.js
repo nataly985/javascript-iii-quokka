@@ -20,7 +20,9 @@ var zebraSound = zenny.makeSound();
 zebraSound;
 var lionSound = lenny.makeSound();
 lionSound;
-
+console.log(genny);
+var a = zenny instanceof Animal;
+a;
 
 class BankAccount{
     constructor(accountNum, startingAmount){
